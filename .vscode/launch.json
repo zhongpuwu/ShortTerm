@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LinkedGradeManager",
+            "request": "launch",
+            "mainClass": "app.LinkedGradeManager",
+            "projectName": "ShortTerm"
+        }
+    ]
+}
