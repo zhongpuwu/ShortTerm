@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Cengci",
+            "request": "launch",
+            "mainClass": "app.Cengci",
+            "projectName": "ShortTerm"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HuffMan",
+            "request": "launch",
+            "mainClass": "app.HuffMan",
+            "projectName": "ShortTerm"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - test",
+            "request": "launch",
+            "mainClass": "app.test",
+            "projectName": "ShortTerm"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LinkedGradeManager",
             "request": "launch",
             "mainClass": "app.LinkedGradeManager",
