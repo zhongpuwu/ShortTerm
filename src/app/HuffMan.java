@@ -33,8 +33,8 @@ public class HuffMan {
             s.push(p.in);
             p = p.last;
         }
-        for (String i : s) {
-            str += i;
+        while(!s.isEmpty()){
+            str+=s.pop();
         }
         return str;
     }
