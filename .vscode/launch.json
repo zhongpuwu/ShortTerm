@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PrimKruskal",
+            "request": "launch",
+            "mainClass": "app.PrimKruskal",
+            "projectName": "ShortTerm"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SuchSort",
+            "request": "launch",
+            "mainClass": "app.SuchSort",
+            "projectName": "ShortTerm"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Cengci",
             "request": "launch",
             "mainClass": "app.Cengci",
