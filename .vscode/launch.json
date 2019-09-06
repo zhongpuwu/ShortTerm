@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Stop",
+            "request": "launch",
+            "mainClass": "app.Stop",
+            "projectName": "ShortTerm"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PrimKruskal",
             "request": "launch",
             "mainClass": "app.PrimKruskal",

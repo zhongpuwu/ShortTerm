@@ -105,7 +105,6 @@ public class SuchSort {
                     al.remove(i+n+1);
                 }
             }
-            System.out.println(GetString(al));
             n/=2;
         }
         return GetString(al);

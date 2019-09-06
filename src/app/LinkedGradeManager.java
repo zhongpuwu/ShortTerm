@@ -100,6 +100,7 @@ public class LinkedGradeManager {
             TheMap.put(n, i.id);
             System.out.printf("%d:%s %s %.1f %.1f %.1f %s\n", n, i.id, i.name, i.agrade, i.bgrade, i.cgrade,
                     i.x ? "有效" : "无效");
+            n++;
         }
         System.out.println("\n查询结束\n");
         return TheMap;
@@ -272,12 +273,10 @@ public class LinkedGradeManager {
         String id = TheMap.get(n);
         Grades.removeIf(Student -> Student.id.equals(id)); // lambda表达式
         // 第二种写法
-        /*Grades.removeIf(new Predicate<Student>() {
-            public boolean test(Student stu) {
-                return stu.id.equals(id); // 过滤30岁以上的求职者
-            }
-        });
-        */
+        /*
+         * Grades.removeIf(new Predicate<Student>() { public boolean test(Student stu) {
+         * return stu.id.equals(id); // 返回满足条件的id } });
+         */
     }
 
     static boolean pd(double a) {
